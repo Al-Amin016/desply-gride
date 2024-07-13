@@ -24,4 +24,23 @@ img{
 .box{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    gap: 5px;
 } 
+
+@media screen and (max-width:660px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .box{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:660px) and (max-width:1024px) {
+    .row{
+        display: flex;
+        height: auto;
+    }
+    
+    
+}
