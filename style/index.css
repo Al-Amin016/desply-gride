@@ -27,7 +27,7 @@ img{
     gap: 5px;
 } 
 
-@media screen and (max-width:660px) {
+@media screen and (max-width:60px) {
     .row{
         flex-direction: column;
         height: auto;
@@ -36,7 +36,7 @@ img{
         grid-template-columns: 1fr;
     }
 }
-@media screen and (min-width:660px) and (max-width:1024px) {
+@media screen and (min-width:560px) and (max-width:1024px) {
     .row{
         display: flex;
         height: auto;
