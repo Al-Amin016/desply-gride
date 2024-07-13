@@ -27,7 +27,7 @@ img{
     gap: 5px;
 } 
 
-@media screen and (max-width:60px) {
+@media screen and (max-width:560px) {
     .row{
         flex-direction: column;
         height: auto;
